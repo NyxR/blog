@@ -4,8 +4,106 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "66ca7343889332c2b8ecca11c251430c",
+    "content-hash": "417f0b9059d78307dc05b16ea9b2123f",
     "packages": [
+        {
+            "name": "codezero/cookie",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codezero-be/cookie.git",
+                "reference": "5300089c9dc7bd48c9865d53c3aed8bd513da6d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codezero-be/cookie/zipball/5300089c9dc7bd48c9865d53c3aed8bd513da6d2",
+                "reference": "5300089c9dc7bd48c9865d53c3aed8bd513da6d2",
+                "shasum": ""
+            },
+            "require": {
+                "codezero/encrypter": "~1.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "henrikbjorn/phpspec-code-coverage": "~1.0",
+                "illuminate/cookie": "~5.0",
+                "illuminate/http": "~5.0",
+                "illuminate/support": "~5.0",
+                "phpspec/phpspec": "~2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CodeZero\\Cookie\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Vermeyen",
+                    "email": "ivan@codezero.be"
+                }
+            ],
+            "description": "Your friendly, furry cookie monster. Get and set cookies with ease.",
+            "keywords": [
+                "cookie",
+                "encrypt",
+                "laravel",
+                "php"
+            ],
+            "time": "2015-08-16T22:40:51+00:00"
+        },
+        {
+            "name": "codezero/encrypter",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codezero-be/encrypter.git",
+                "reference": "4db9dbee74df6a6b64aded1fc74788ae38ea3c45"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codezero-be/encrypter/zipball/4db9dbee74df6a6b64aded1fc74788ae38ea3c45",
+                "reference": "4db9dbee74df6a6b64aded1fc74788ae38ea3c45",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "~5.0",
+                "illuminate/encryption": "~5.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "henrikbjorn/phpspec-code-coverage": "~1.0",
+                "phpspec/phpspec": "~2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CodeZero\\Encrypter\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Vermeyen",
+                    "email": "ivan@codezero.be"
+                }
+            ],
+            "description": "Encrypt and decrypt strings in PHP.",
+            "keywords": [
+                "encrypt",
+                "encryption",
+                "laravel",
+                "php"
+            ],
+            "time": "2015-03-28T00:11:59+00:00"
+        },
         {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "0.1",

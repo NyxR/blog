@@ -1,0 +1,264 @@
+        html, body{
+    		padding: 0;
+    		margin: 0;
+    		width: 100%;
+    		height: 100%;
+            color: rgb(64, 64, 64);
+    	}
+
+        /* Navigation tabs*/
+
+    	#myNavBar{
+    		background-color: rgb(255, 255, 255);
+    	}
+
+    	#myNavBar button {
+    		padding:2px;
+    	}
+    	#myNavBar .navbar-brand {
+    		color: rgb(215, 67, 67);
+            padding: 0;
+            margin: 0 0 0 40px;
+    		font-size: 2em;
+
+    	}
+        #myNavBar .navbar-brand img{
+            padding: 0;
+            margin: 0;
+            position: relative;
+            bottom: 5px;
+        }
+
+        #myNavBar ul{
+            margin-right: 10px;
+        }
+
+    	#myNavBar ul li a{
+    		color: rgb(64, 64, 64);
+            transition: .5s;
+    	}   
+    	#myNavBar ul .nav-item{
+    		padding-right: 10px;
+    		padding-left: 10px;
+    		margin:0 10px 0 10px;
+    		transition: .5s;
+    	}
+        #Langage{
+            padding-right: 10px;
+            padding-left: 10px;
+            margin:0 10px 0 10px;
+            transition: .5s;
+        }
+        #Langage li {
+            position: relative;
+            top: 8px;
+        }
+
+    	#myNavBar ul .nav-item:hover, #Langage:hover{
+    		background-color: rgb(215, 67, 67);
+    	}
+
+        #myNavBar ul li a:hover {
+            text-decoration: none;
+            color: white;
+        }
+
+        
+        
+        /* Get started */
+        .intro{
+            padding: 0;
+            margin: auto;
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            background: url("../../resources/img/bg.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .intro .inner{
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            max-width: none;
+        }
+
+        .intro .inner_1{
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            max-width: none;
+
+        }
+
+        .content {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 1%;
+        }
+
+        .content_1{
+            max-width: 700px;
+            margin: auto;
+            text-align: left;
+            padding-top: 18%;
+        }
+
+        .content_1 h1{
+            font-size: 600%;
+            font-weight: 100;
+            color: #E1EFE9;
+        }
+
+        .content_1 p {
+            font-size: 30px;
+            font-weight: 100;
+            color: #E1EFE9;
+            line-height: 100%;
+
+        }
+
+        .btn_started{
+            padding: 10px;
+            margin-right: 10px;
+            font-size: 30px;
+            font-weight: 300%;
+            text-decoration: none;
+            color: #E1EFE9;
+            background-color: rgb(215, 67, 67);
+            border: 2px solid #E1EFE9;
+            border-radius: 20px;
+            transition: .5s;
+        }
+
+        .btn_Sign{
+            padding: 10px 40px 10px 40px;
+            margin-left: 10px;
+            font-size: 30px;
+            font-weight: 300%;
+            text-decoration: none;
+            color: #E1EFE9;
+            border: 2px solid #E1EFE9;
+            border-radius: 20px;
+            transition: .5s;
+        }
+
+        .btn_started:hover{
+            text-decoration: none;
+            color: rgb(64, 64, 64);
+        }
+        .btn_Sign:hover{
+            text-decoration: none;
+            color: rgb(215, 67, 67);
+        }
+
+        @media screen and (max-width: 992px){
+            .content_1{
+                max-width: 650px;
+                padding-top: 25%; 
+            }
+
+           .content_1 h1 {
+            font-size: 450%;
+            }
+
+           .content_1 p{
+            font-size: 28px;
+           }
+
+           .btn_started{
+            padding: 5px 10px;
+            font-size: 28px;
+           } 
+           .btn_Sign{
+            padding: 5px 20px;
+            font-size: 28px;
+           } 
+        }
+
+        @media screen and (max-width: 768px){
+            .content_1{
+                max-width: 550px;
+                padding-top: 38%; 
+            }
+
+           .content_1 h1 {
+            font-size: 350%;
+            }
+
+           .content_1 p{
+            font-size: 25px;
+           }
+
+           .btn_started{
+            padding: 5px 10px;
+            font-size: 25px;
+           }  
+           .btn_Sign{
+            padding: 5px 20px;
+            font-size: 25px;
+           }
+        }
+
+        @media screen and (max-width: 576px){
+           #navbar-brand {
+                margin: 0 !important;
+                font-size: 30px !important;
+            }
+           .content_1{
+                max-width: 400px;
+                padding-top: 50%; 
+            }
+
+           .content_1 h1 {
+            font-size: 300%;
+            }
+
+           .content_1 p{
+            font-size: 20px;
+           }
+
+           .btn_started{
+            padding: 5px 10px;
+            font-size: 20px;
+           }  
+           .btn_Sign{
+            padding: 5px 20px;
+            font-size: 20px;
+           }
+        }
+
+        @media screen and (max-width: 320px){
+           
+            #navbar-brand {
+                margin: 0 !important;
+                font-size: 30px !important;
+            }
+           .content_1{
+                max-width: 300px;
+                padding-top: 50%; 
+                margin: 0 10px 0 10px;
+                text-align: center;
+            }
+
+           .content_1 h1 {
+            font-size: 300%;
+            }
+
+           .content_1 p{
+            font-size: 20px;
+           }
+
+           .btn_started{
+            padding: 5px 10px;
+            font-size: 20px;
+           }  
+           .btn_Sign{
+            padding: 5px 20px;
+            font-size: 20px;
+           }
+        }
+
