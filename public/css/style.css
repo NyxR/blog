@@ -1772,6 +1772,8 @@ h1, h2, h3, h4, h5, h6, figure {
     left: 170px;
 }
 
+/*define all media queries*/
+
 @media screen and (max-width: 1280px) {
     .items-1{
         right: 110px;
@@ -2491,5 +2493,9 @@ h1, h2, h3, h4, h5, h6, figure {
     .content-4{
         left: 110px;
     }
+}
+
+@media screen and (max-width: 320px){
+    
 }
 /*# sourceMappingURL=style.css.map */
