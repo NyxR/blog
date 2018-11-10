@@ -53,10 +53,10 @@
 		<div class="top-menu">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xs-3 col-md-4 col-sm-11">
+					<div class="col-md-4 col-sm-11 nav-logo">
 						<div id="fh5co-logo"><a href="index.html"><img src="../resources/img/HyperDevVectFin.png" width="70" height="70" class="d-inline-b" style="margin:0; padding: 0;"><span>HyperDev</span></a></div>
 					</div>
-					<div class="col-xs-9 col-md-8 col-sm-1 text-right menu-1">
+					<div class="col-md-8 col-sm-1 text-right menu-1">
 						<ul>
 							<li class="active"><a href="#">HOME</a></li>
 							<li><a href="#services">SERVICES</a></li>
@@ -114,10 +114,10 @@
     <section class="about-container wow fadeInDown" id="about">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-4">
-                    <img src="../resources/img/HyperDevVectFin.png" class="img-fluid rounded-circle">
+                <div class="col-md-3">
+                    <img src="../resources/img/HyperDevVectFin.png" class="img-fluid rounded-circle about-logo">
                 </div>
-                <div class="col-lg-6">
+                <div class="col-md-9">
                     <h1>About <span>HyperDev</span></h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
@@ -147,14 +147,30 @@
                                 <div class="service_icons icons-1">
                                     <i class="fas fa-desktop"></i>
                                 </div>
+                                <div class="content-items content-1">
+                                    <h1>Web design</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
                                 <div class="service_icons icons-2">
                                     <i class="fas fa-cogs"></i>
+                                </div>
+                                <div class="content-items content-2">
+                                    <h1>Mobile Apps</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 </div>
                                 <div class="service_icons icons-3">
                                     <i class="fas fa-globe-americas"></i>
                                 </div>
+                                <div class="content-items content-3">
+                                    <h1>Maintenance</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
                                 <div class="service_icons icons-4">
                                     <i class="fas fa-mobile-alt"></i>
+                                </div>
+                                <div class="content-items content-4">
+                                    <h1>Web Service</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 </div>
                             </div>
                         </div>
@@ -184,16 +200,16 @@
     
         
 	<footer id="fh5co-footer" class=" wow fadeInDown" role="contentinfo">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row ">
-				<div class="col-md-3 fh5co-widget">
+				<div class="col-md-3 fh5co-widget logo-footer">
 					<img src="../resources/img/HyperDevVectFin.png" width="200" height="200">
 				</div>
-				<div class="col-md-3 fh5co-widget">
+				<div class="col-sm-4 col-md-3 fh5co-widget">
 					<h4>HyperDev</h4>
 					<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
 				</div>
-				<div class="col-md-3 col-md-push-1">
+				<div class="col-sm-4 col-md-3 col-md-push-1 footer-nav">
 					<h4>Navigation</h4>
 					<ul class="fh5co-footer-links">
 						<li><a href="#">Home</a></li>
@@ -203,7 +219,7 @@
 					</ul>
 				</div>
 
-				<div class="col-md-3 col-md-push-1">
+				<div class="col-sm-4 col-md-3 col-md-push-1">
 					<h4>Contact Information</h4>
 					<ul class="fh5co-footer-links">
 						<li>Antananarivo, <br> Andravohangy</li>
@@ -233,11 +249,13 @@
 		</div>
 	</footer>
 
+<!--
 	<div class="cookie-bar">
 		<h4>Welcome!</h4>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 		<a href="#">Got it!</a>
 	</div>
+-->
 	
 	</div>
 
