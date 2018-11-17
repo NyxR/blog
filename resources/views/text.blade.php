@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Test</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
 	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
@@ -34,9 +34,12 @@
 	<link rel="stylesheet" href="../public/css/owl.theme.default.min.css">
 	<!-- Flexslider  -->
 	<link rel="stylesheet" href="../public/css/flexslider.css">
+    <!-- Swiper  -->
+    <link rel="stylesheet" type="text/css" href="../public/css/swiper.min.css">
 
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="../public/css/style.css">
+    
 	<!-- Modernizr JS -->
 	<script src="../public/js/modernizr-2.6.2.min.js"></script>
     <script src="../public/js/wow.min.js"></script>
@@ -51,12 +54,12 @@
 	<div id="page">
 	<nav class="fh5co-nav" role="navigation">
 		<div class="top-menu">
-			<div class="container-fluid">
+			<div class="container">
 				<div class="row">
-					<div class="col-md-4 col-sm-11 nav-logo">
-						<div id="fh5co-logo"><a href="index.html"><img src="../resources/img/HyperDevVectFin.png" width="70" height="70" class="d-inline-b" style="margin:0; padding: 0;"><span>HyperDev</span></a></div>
+					<div class="col-lg-4 col-sm-11 nav-logo">
+						
 					</div>
-					<div class="col-md-8 col-sm-1 text-right menu-1">
+					<div class="col-lg-8 col-sm-1 text-right menu-1">
 						<ul>
 							<li class="active"><a href="#">HOME</a></li>
 							<li><a href="#services">SERVICES</a></li>
@@ -77,7 +80,11 @@
 		</div>
 	</nav>
 
-	<aside id="fh5co-hero" class="js-fullheight">
+    <div id="fh5co-logo">
+        <a href="index.html"><img src="../resources/img/HyperDevVectFin.png" width="250" height="250" class="d-inline-b" style="margin:0; padding: 0;"></a>
+    </div>
+        
+	<div id="fh5co-hero" class="js-fullheight">
 		<div class="flexslider js-fullheight">
 			<ul class="slides">
 		   	<li style="background-image: url(../resources/img/bg.jpg);">
@@ -110,7 +117,7 @@
 		   	</li>	   	
 		  	</ul>
 	  	</div>
-	</aside>
+	</div>
     <section class="about-container wow fadeInDown" id="about">
         <div class="container-fluid">
             <div class="row">
@@ -198,6 +205,70 @@
         </div>
     </section>
     
+    <section id="portfolio" class="portfolio-container">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="portfolio-content wow fadeIn">
+                        <h1>Portfolio</h1>
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="imgBox">
+                                        <img src="../resources/img/img1.jpg">
+                                    </div>
+                                    <div class="details">
+                                        <h3>See more ...</h3>
+                                        <a href="#">www.monsite.com</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="imgBox">
+                                        <img src="../resources/img/img2.jpg">
+                                    </div>
+                                    <div class="details">
+                                        <h3>See more ...</h3> 
+                                        <a href="#">www.monsite.com</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="imgBox">
+                                        <img src="../resources/img/img3.jpg">
+                                    </div>
+                                    <div class="details">
+                                        <h3>See more ...</h3>
+                                        <a href="#">www.monsite.com</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="imgBox">
+                                        <img src="../resources/img/img4.jpg">
+                                    </div>
+                                    <div class="details">
+                                        <h3>See more ...</h3>
+                                        <a href="#">www.monsite.com</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="imgBox">
+                                        <img src="../resources/img/img5.jpg">
+                                    </div>
+                                    <div class="details">
+                                        <h3>See more ...</h3>
+                                        <a href="#">www.monsite.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>    
+    
+        
+    </section>
         
 	<footer id="fh5co-footer" class=" wow fadeInDown" role="contentinfo">
 		<div class="container-fluid">
@@ -292,6 +363,27 @@
 	<script src="../public/js/main.js"></script>
     <!-- wow -->
     <script src="../public/js/wow.min.js"></script>
+    <!-- Swiper -->
+    <script type="text/javascript" src="../public/js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination:{
+                el: '.swiper-pagination',
+                dynamicBullets: true,
+            },
+        });
+    </script>
     
 </body> 
 </html>
