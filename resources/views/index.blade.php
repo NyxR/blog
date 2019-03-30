@@ -6,21 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../bootstrap-4.1.3-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../public/css/landingPage.css">
-    <link rel="stylesheet" type="text/css" href="../public/css/animate.css">
-    <link rel="stylesheet" type="text/css" href="../public/css/lightbox.min.css">
-    <link rel="stylesheet" type="" href="../fontawesome-free-5.3.1-web/css/all.css">
-    <script src="../public/js/jquery.min.js"></script>
-    <script src="../public/js/lightbox-plus-jquery.min.js"></script>
-     
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/landingPage.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/animate.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/lightbox.min.css')}}">
+    <link rel="stylesheet" type="" href="{{asset('fontawesome-free-5.3.1-web/css/all.css')}}">
+    <script src="{{asset('js/jquery.min.js')}}"></script>
+    <script src="{{asset('js/lightbox-plus-jquery.min.js')}}"></script>
+
     <title>HYPERDEV</title>
     
 </head>
 <body>
     <header id="#home">
         <div class="navbar">
-            <div class="logo"><img src="../resources/img/HyperDevVectFin.png"></div>
+            <div class="logo"><img src="{{asset('img/HyperDevVectFin.png')}}"></div>
             <nav>
                 <ul>
                     <li><a href="#" class="active">Home</a></li>
@@ -40,19 +40,19 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <div class="banner" style="background-image: url('../resources/img/bg5.jpg');"></div>
+                    <div class="banner" style="background-image: url('{{asset('img/bg5.jpg')}}');"></div>
                     <div class="carousel-caption">
                         <h2 class="animated bounceInRight" style="animation-delay: 1s">We are <span style="color: rgb(215,66,66);">Hyper</span><span style="color: #333;">Dev</span></h2>
                         <h3 class="animated bounceInLeft" style="animation-delay: 2s">Web Design and Development</h3>
-                        <p class="animated bounceInRight" style="animation-delay: 3s"><a href="#">Get Started</a></p>
+                        <p class="animated bounceInRight" style="animation-delay: 3s"><a href="{{ route('signin') }}">Get Started</a></p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="banner" style="background-image:  url('../resources/img/bg3.jpg');"></div>
+                    <div class="banner" style="background-image:  url('{{asset('img/bg3.jpg')}}');"></div>
                     <div class="carousel-caption">
                         <h2 class="animated fadeIn" style="animation-delay: 1s">We are <span style="color: rgb(215,66,66);">Creative</span></h2>
                         <h3 class="animated fadeIn" style="animation-delay: 2s">Web Design and Development</h3>
-                        <p class="animated fadeIn" style="animation-delay: 3s"><a href="#">Get Started</a></p>
+                        <p class="animated fadeIn" style="animation-delay: 3s"><a href="{{ route('signin') }}">Get Started</a></p>
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@
         <h1>About us</h1>
         <div class="container about-container">
             <div class="row">
-                <div class="col-sm-12 col-md-4 col-lg-5"><img src="../resources/img/HyperDevVectFin.png" class="img-fluid"></div>
+                <div class="col-sm-12 col-md-4 col-lg-5"><img src="{{asset('img/HyperDevVectFin.png')}}" class="img-fluid"></div>
                 <div class="col-sm-12 col-md-8 col-lg-7">
                     <div class="about-inner">
                         <h2><span style="color: rgb(215,66,66)">Hyper<span style="color: #333">Dev</span></span></h2>
@@ -133,7 +133,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="single-portfolio">
-                        <a href="../resources/img/img1.jpg" data-lightbox="portfolio"><img src="../resources/img/img1.jpg"></a>
+                        <a href="{{asset('img/img1.jpg')}}" data-lightbox="portfolio"><img src="{{asset('img/img1.jpg')}}"></a>
                         <div class="portfolio-caption">
                             <h3>Lorem Ipsum</h3>
                             <p>Lorem Ipsum dolor sit amet.</p>
@@ -142,7 +142,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="single-portfolio">
-                        <a href="../resources/img/img2.jpg" data-lightbox="portfolio"><img src="../resources/img/img2.jpg"></a>
+                        <a href="{{asset('img/img2.jpg')}}" data-lightbox="portfolio"><img src="{{asset('img/img2.jpg')}}"></a>
                         <div class="portfolio-caption">
                             <h3>Lorem Ipsum</h3>
                             <p>Lorem Ipsum dolor sit amet.</p>
@@ -151,7 +151,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="single-portfolio">
-                        <a href="../resources/img/img3.jpg" data-lightbox="portfolio"><img src="../resources/img/img3.jpg"></a>
+                        <a href="{{asset('img/img3.jpg')}}" data-lightbox="portfolio"><img src="{{asset('img/img3.jpg')}}"></a>
                         <div class="portfolio-caption">
                             <h3>Lorem Ipsum</h3>
                             <p>Lorem Ipsum dolor sit amet.</p>
@@ -160,7 +160,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="single-portfolio">
-                        <a href="../resources/img/img4.jpg" data-lightbox="portfolio"><img src="../resources/img/img4.jpg"></a>
+                        <a href="{{asset('img/img4.jpg')}}" data-lightbox="portfolio"><img src="{{asset('img/img4.jpg')}}"></a>
                         <div class="portfolio-caption">
                             <h3>Lorem Ipsum</h3>
                             <p>Lorem Ipsum dolor sit amet.</p>
@@ -169,7 +169,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="single-portfolio">
-                        <a href="../resources/img/img5.jpg" data-lightbox="portfolio"><img src="../resources/img/img5.jpg"></a>
+                        <a href="{{asset('img/img5.jpg')}}" data-lightbox="portfolio"><img src="{{asset('img/img5.jpg')}}"></a>
                         <div class="portfolio-caption">
                             <h3>Lorem Ipsum</h3>
                             <p>Lorem Ipsum dolor sit amet.</p>
@@ -179,7 +179,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="single-portfolio">
-                        <a href="../resources/img/img6.jpg" data-lightbox="portfolio"><img src="../resources/img/img6.jpg"></a>
+                        <a href="{{asset('img/img6.jpg')}}" data-lightbox="portfolio"><img src="{{asset('img/img6.jpg')}}"></a>
                         <div class="portfolio-caption">
                             <h3>Lorem Ipsum</h3>
                             <p>Lorem Ipsum dolor sit amet.</p>
@@ -247,9 +247,9 @@
     <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
-<script src="../../bootstrap-4.1.3-dist/js/popper.min.js"></script>
-<script src="../../bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
-<script src="../../bootstrap-4.1.3-dist/js/jquery-3.3.1.slim.min.js"></script>
+<script src="{{asset('js/popper.min.js')}}"></script>
+<script src="{{asset('js/bootstrap.min.js')}}"></script>
+<script src="{{asset('js/jquery-3.3.1.slim.min.js')}}"></script>
 <script type="text/javascript">
     $(document).ready(function(){
         $('.menu-toggle').click(function(){

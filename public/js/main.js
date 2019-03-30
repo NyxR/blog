@@ -293,7 +293,7 @@
         new WOW().init();
         smoothScroll.init();
     }
-	
+	 
 	$(function(){
 		mobileMenuOutsideClick();
 		offcanvasMenu();

@@ -1,0 +1,48 @@
+.dash-card{
+    position: relative;
+    margin-top: 25px;
+    background: #333b44;
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px black;
+    overflow: hidden;
+}
+
+.dash-card i{
+    font-size: 75px;
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    color: #ecf1f5;
+}
+.dash-card-content{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    color: white;
+}
+
+.dash-card-content h3{
+    font-size: 35px;
+}
+.dash-card-content p{
+    font-size: 30px;
+}
+
+.work-table{
+    margin-top: 25px;
+}
+
+.work-table h2{
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+
+.work-table table{
+    max-width: 950px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background: #333b44;
+    color: white;
+}
